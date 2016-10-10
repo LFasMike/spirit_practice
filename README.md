@@ -8,6 +8,10 @@
     go get github.com/spirit-contrib/inlet_http_api
 ~~~ 
 
+## 配置配置文件:
+
+将项目中的{{your_access_key_id}}:{{your_access_secret}}@{{your_account}}替换成个人的阿里云账号
+
 ## 运行apioutside
 
 对github.com/spirit-contrib/inlet_http_api进行build,生成inlet_http_api可执行文件,移动到api_outside项目中。
