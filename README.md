@@ -8,7 +8,7 @@
     go get github.com/spirit-contrib/inlet_http_api
 ~~~ 
 
-## 配置配置文件:
+## 更改项目中的配置文件:
 
 将项目中的{{your_access_key_id}}:{{your_access_secret}}@{{your_account}}替换成个人的阿里云账号
 
@@ -24,7 +24,7 @@
 
 # 数据库
 ```
-db: todo
+database: todo
 
 Create Table: CREATE TABLE `task` (
   `id` varchar(45) NOT NULL,
