@@ -1,8 +1,16 @@
 
 
-# RUN 
+# Start
+
+下载第三方依赖包:
+~~~
+    go get github.com/gogap/spirit
+    go get github.com/spirit-contrib/inlet_http_api
+~~~ 
 
 ## 运行apioutside
+
+对github.com/spirit-contrib/inlet_http_api进行build,生成inlet_http_api可执行文件,移动到api_outside项目中。
 
 ➜  api_outside ./inlet_http_api run -c spirit.conf inlet_http_api
 
